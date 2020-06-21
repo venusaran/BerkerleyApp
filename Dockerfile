@@ -2,8 +2,6 @@ FROM python:3.6
 
 ENV PYTHONUNBUFFERED 1
 
-#REDIS_URL=redis://redis_db:6379
-
 # create root directory for our project in the container
 RUN mkdir /berkeley_app
 
